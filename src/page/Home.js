@@ -24,7 +24,7 @@ export default function Home() {
 
         <div className="col">
           <div className="slider-img-box d-flex justify-content-end">
-         <img src="./image/FeelGood.gif" className="img-fluid" alt="meImg" />
+         <img src=".\image\FeelGood.gif" className="img-fluid" alt="meImg" />
          </div>
         </div>
 
