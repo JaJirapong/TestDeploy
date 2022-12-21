@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
        <Routes>
          <Route path='contract' element={<Contract/>} />
-        <Route path="/TestDeploy" element={<ShareNavbar />}>
+        <Route path="https://jajirapong.github.io/" element={<ShareNavbar />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="mything" element={<Mything />} />
