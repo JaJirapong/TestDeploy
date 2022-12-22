@@ -12,10 +12,11 @@ import Contract from './component/Contract';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter
+      basename={process.env.PUBLIC_URL}>
        <Routes>
          <Route path='contract' element={<Contract/>} />
-        <Route path="https://jajirapong.github.io/" element={<ShareNavbar />}>
+        <Route path="/" element={<ShareNavbar />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="mything" element={<Mything />} />
